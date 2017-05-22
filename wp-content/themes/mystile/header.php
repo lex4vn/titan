@@ -42,8 +42,14 @@ global $woo_options, $woocommerce;
 		<nav class="col-full" role="navigation">
 			<ul class="top-info">
 				<li><span class="top-text">TITAN Investment and Development</span></li>
-				<li><span class="top-text"><span class="top-icon-hotline"></span>Hotline: <a href="tel:0983359087"><span>098 335 9087</span></a></span></li>
-				<li><span class="top-text">Tìm kiếm<span class="top-icon-search"></span></span></li>
+				<li><span class="top-text">
+						<img class="top-text-icon-phone" src="<?php echo esc_url(get_template_directory_uri().'/images/hotline.png'); ?>"/>
+						Hotline: <a class="top-text-icon-phone" href="tel:0983359087"><span>098 335 9087</span></a></span></li>
+				<li><a href="javascript:;"><span class="top-text">Tìm kiếm
+					<img class="top-text-icon-search" src="<?php echo esc_url(get_template_directory_uri().'/images/ico-search.png'); ?>"/>
+					</span></span>
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</div><!-- /#top -->

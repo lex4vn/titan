@@ -3475,8 +3475,11 @@ INDEX
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
-  #header #navigation ul.nav > li:first a {
-    border-left: none;
+  #header #navigation ul.nav > li:first-child a {
+    border-left: medium none;
+  }
+  #header #navigation ul.nav > li:last-child a {
+    border-right: medium none;
   }
   #header #navigation ul.nav > li a:hover {
     border-color: #e6e6e6;color:#a28601;
@@ -3856,11 +3859,16 @@ INDEX
     font-weight: normal;
     content: "S";
   }
+  .top-text-icon-phone, .top-text-icon-search{
+    vertical-align: middle;
+    color: red;
+  }
+
   .top-icon-hotline{
     display: inline-block;
-    height: 18px;
-    width: 19px;
-    background-image: url("../images/hotline.png");
+    height: 23px;
+    width: 27px;
+    background-image: url("../images/hotline.png") ;
     background-repeat: no-repeat;
   }
   #header {
