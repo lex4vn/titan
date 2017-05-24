@@ -710,9 +710,9 @@ ul.nav li a {
 /* 2.7 Breadcrumbs */
 #breadcrumbs {
   display: none;
-  margin-top: 1.618em;
-  margin-bottom: 1.618em;
-  padding-bottom: 1.618em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
   color: #bbbbbb;
   font-size: .857em;
   font-weight: bold;
@@ -754,7 +754,8 @@ ul.nav li a {
   margin-bottom: 1.618em;
 }
 #text-2.widget_text .textwidget{
-  border: 3px solid #746000;
+  border: 2px solid #746000;
+  padding: 10px;
 }
 .post,
 .type-page {
@@ -3732,8 +3733,8 @@ INDEX
     float: right;
   }
 
-  .archive-section .post-content header,
-  .archive-section .post-content section.entry{
+  .post-content header,
+  .post-content section.entry{
     padding-left: 20px;
   }
   .single .type-post p:first-child {
@@ -3904,6 +3905,23 @@ INDEX
     -webkit-box-shadow: none;
     box-shadow: none;
     width: auto;
+  }
+  #content{
+    padding-top: 30px;
+    margin-top: 15px;
+    border-top: 1px dashed #ccc;
+  }
+  .phonenumber {
+    color: red;
+    font-weight: 700;
+    border-right: 2px solid #746000;
+    padding-right: 15px;
+    font-size: 150%;
+  }
+  .mailweb{
+    color: #746000;
+    float:right;
+    padding-left: 10px;
   }
   #main.fullwidth,
   .layout-full #main,
