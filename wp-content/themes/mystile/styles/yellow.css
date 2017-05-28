@@ -598,7 +598,7 @@ ul.nav li a {
 }
 #header #logo {
   float: left;
-  margin-bottom: 1.618em;
+  margin-bottom: 0;
 }
 #header .site-title,
 #header .site-description {
