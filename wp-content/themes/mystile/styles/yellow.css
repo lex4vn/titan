@@ -4308,6 +4308,7 @@ INDEX
     border-top: 1px solid #b6b4b6;
     border-bottom: 1px solid #c8c8c8;
     height:32px;
+    min-width: 298px;
   }
   .top-info li:last-child span.top-text{
     border-right: none;
