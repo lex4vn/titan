@@ -3733,7 +3733,9 @@ INDEX
     width: 60%;
     float: right;
   }
-
+  .type-post .post-content.post-content-single{
+    width: 100%;
+  }
   .post-content header,
   .post-content section.entry{
     padding-left: 20px;

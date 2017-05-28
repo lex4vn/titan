@@ -45,16 +45,16 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
         		while ( have_posts() ) { the_post(); $count++;
         ?>
 			<article <?php post_class(); ?>>
-				<aside class="meta">
-					<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>">
-						<?php echo get_avatar( get_the_author_meta('email'), '128' ); ?>
-					</a>
-					<span class="month"><?php the_time( 'M' ); ?></span>
-					<span class="day"><?php the_time( 'd' ); ?></span>
-					<span class="year"><?php the_time( 'o' ); ?></span>
-				</aside>
+<!--				<aside class="meta">-->
+<!--					<a href="--><?php //echo get_author_posts_url(get_the_author_meta( 'ID' )); ?><!--">-->
+<!--						--><?php //echo get_avatar( get_the_author_meta('email'), '128' ); ?>
+<!--					</a>-->
+<!--					<span class="month">--><?php //the_time( 'M' ); ?><!--</span>-->
+<!--					<span class="day">--><?php //the_time( 'd' ); ?><!--</span>-->
+<!--					<span class="year">--><?php //the_time( 'o' ); ?><!--</span>-->
+<!--				</aside>-->
 				
-				<section class="post-content">
+				<section class="post-content post-content-single">
 
 					<?php echo woo_embed( 'width=787' ); ?>
 	                <?php if ( $settings['thumb_single'] == 'true' && ! woo_embed( '' ) ) { woo_image( 'width=' . $settings['single_w'] . '&height=' . $settings['single_h'] . '&class=thumbnail ' . $settings['thumb_single_align'] ); } ?>
