@@ -1058,6 +1058,7 @@ ul.nav li a {
   background-color: #676769;
   border-radius: 7px 0 0 0;
 }
+.widget ul,
 .textwidget{
   border: 1px solid #d8d8d8;
   padding:20px;
@@ -4287,5 +4288,57 @@ INDEX
   }
   .homepage-banner .description {
     font-size: 1.387em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body{padding: 0 10px;}
+  #header{padding: 0;margin: 0}
+  .top-info li:first-child{
+    display: none;
+  }
+  #top {
+    background: #fefdfe; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fefdfe, #f2f1f6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fefdfe, #f2f1f6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fefdfe, #f2f1f6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fefdfe, #f2f1f6); /* Standard syntax (must be last) */
+    margin: 0 -3.631em;
+    padding: 0 3.631em;
+    border-top: 1px solid #b6b4b6;
+    border-bottom: 1px solid #c8c8c8;
+    height:32px;
+  }
+  .top-info li:last-child span.top-text{
+    border-right: none;
+  }
+  .top-info{
+    float: right;list-style: none;
+    margin: 0;
+  }
+  .top-info li{
+    float:left;
+    list-style: none;position: relative;
+  }
+  .top-info li span.top-text{
+    display: block;
+    padding: 0 12px;
+    color: #535a60;
+    text-decoration: none;
+    border-right: 1px solid #c1c1c1;
+    line-height: 32px;
+    position: relative;
+  }
+  .top-text-icon-phone, .top-text-icon-search{
+    vertical-align: middle;
+    color: red;
+  }
+
+  .top-icon-hotline{
+    display: inline-block;
+    height: 23px;
+    width: 27px;
+    background-image: url("../images/hotline.png") ;
+    background-repeat: no-repeat;
   }
 }
