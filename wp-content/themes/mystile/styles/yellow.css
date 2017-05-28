@@ -613,7 +613,7 @@ ul.nav li a {
 }
 #header hgroup {
   position: relative;
-  margin-bottom: 1.618em;
+  margin-bottom: 0;
 }
 #header hgroup:after {
   content: "\0020";
