@@ -25,7 +25,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	
 	$settings = array(
 					'thumb_w' => 787, 
-					'thumb_h' => 300, 
+					'thumb_h' => 480,
 					'thumb_align' => 'alignleft'
 					);
 					
