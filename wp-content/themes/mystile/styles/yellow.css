@@ -4344,4 +4344,11 @@ INDEX
     background-image: url("../images/hotline.png") ;
     background-repeat: no-repeat;
   }
+
+  .footer-wrap {
+    border-top:10px solid #c8c8cc;
+    background: #a28601;
+    margin: 0 -3.631em;
+    padding: 0 3.631em;
+  }
 }
