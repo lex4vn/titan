@@ -21454,7 +21454,7 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-products.php:46
 msgid "Featured products"
-msgstr ""
+msgstr "Sản phẩm nổi bật"
 
 #: includes/widgets/class-wc-widget-products.php:47
 msgid "On-sale products"
