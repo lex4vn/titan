@@ -622,7 +622,7 @@ class WC_Shortcodes {
 	public static function featured_products( $atts ) {
 		$atts = shortcode_atts( array(
 			'per_page' => '12',
-			'columns'  => '4',
+			'columns'  => '1',
 			'orderby'  => 'date',
 			'order'    => 'desc',
 			'category' => '',  // Slugs
