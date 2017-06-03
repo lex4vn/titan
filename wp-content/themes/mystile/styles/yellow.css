@@ -1039,7 +1039,7 @@ ul.nav li a {
   width: 48%;
 }
 .home ul.products li.product{
-  width: 100%;float:none;
+  width: 100%;float:none;clear: both;
 }
 .home ul.products li.product .woocommerce-loop-product__title{
   width:48%;float:right;text-align: left;padding-left: 10px;
