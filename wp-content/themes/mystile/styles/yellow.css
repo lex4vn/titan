@@ -1038,6 +1038,15 @@ ul.nav li a {
 #main #connect .col-right {
   width: 48%;
 }
+.home ul.products li.product{
+  width: 100%;float:none;
+}
+.home ul.products li.product .woocommerce-loop-product__title{
+  width:48%;float:right;text-align: left;padding-left: 10px;
+}
+.home ul.products li.product img{
+  width: 48%;float:left;
+}
 /*-------------------------------------------------------------------------------------------*/
 /* 4. WIDGETS */
 /*-------------------------------------------------------------------------------------------*/
