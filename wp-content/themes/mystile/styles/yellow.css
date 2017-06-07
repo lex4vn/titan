@@ -1046,13 +1046,20 @@ ul.nav li a {
 .home ul.products li.product h3,
 .home ul.products li.product h4,
 .home ul.products li.product h5{
-  width:48%;float:right;text-align: left;padding-left: 10px;
+  width:58%;float:right;text-align: left;padding-left: 10px;
 }
 .home ul.products li.product img{
   width: 36%;float:left;margin-right: 15px;
 }
-.home ul.products li:first.product img{
-  width: 46%;float:left;margin-right: 15px;
+.home ul.products li.product:first-child img{
+  width: 50%;float:left;margin-right: 15px;
+}
+.home ul.products li.product:first-child .woocommerce-loop-product__title,
+.home ul.products li.product:first-child h2, 
+.home ul.products li.product:first-child h3,
+.home ul.products li.product:first-child h4,
+.home ul.products li.product:first-child h5{
+  width:44%;
 }
 .home ul.products li.product h4 .category-product-tag{
   font-weight: bold;
