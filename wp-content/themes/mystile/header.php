@@ -78,6 +78,8 @@ global $woo_options, $woocommerce;
 			<h3 class="nav-toggle"><a href="#navigation"><mark class="websymbols">&#178;</mark> <span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 
 		</hgroup>
+		<div class="seach-top-container">
+			<img class="seach-top-icon" src="<?php echo esc_url(get_template_directory_uri().'/images/search-top.jpg'); ?>"/>
 		</div>
 		<div class="head-nav">
         <?php woo_nav_before(); ?>
