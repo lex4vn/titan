@@ -408,9 +408,10 @@ if (!function_exists('woo_custom_breadcrumbs_args')) {
 
 function avengerapp_excerpt_in_product_archives() {
     
-	printf( '<span class="category-product-tag">Sản phẩm</span><span class="best-market">Tốt nhất thị trường</span>');
-	
+	printf( '<h4><span class="category-product-tag">Sản phẩm</span><span class="best-market">Tốt nhất thị trường</span></h4>');
+	printf( '<h5>');
 	the_excerpt();
+	printf( '</h5>');
      
 }
 

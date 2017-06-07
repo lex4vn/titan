@@ -1045,7 +1045,15 @@ ul.nav li a {
   width:48%;float:right;text-align: left;padding-left: 10px;
 }
 .home ul.products li.product img{
-  width: 48%;float:left;
+  width: 36%;float:left;margin-right: 15px;
+}
+.home ul.products li:first.product img{
+  width: 46%;float:left;margin-right: 15px;
+}
+
+.home ul.products li.product p {
+    font-weight: normal;
+    text-align: left;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* 4. WIDGETS */
