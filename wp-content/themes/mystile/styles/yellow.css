@@ -3256,6 +3256,13 @@ img.ui-datepicker-trigger {
 .ie8 #top select {
   display: none !important;
 }
+
+.category-product-tag{
+  font-weight:bold;
+  padding-right:15px;
+}
+
+
 /*
 The styles in this stylesheet only apply to resolutions 768px and up
 

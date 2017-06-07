@@ -405,6 +405,16 @@ if (!function_exists('woo_custom_breadcrumbs_args')) {
 	} // End woo_custom_breadcrumbs_args()
 }
 
+
+function avengerapp_excerpt_in_product_archives() {
+    
+	printf( '<span class="category-product-tag">Sản phẩm</span><span class="best-market">Tốt nhất thị trường</span>');
+	
+	the_excerpt();
+     
+}
+
+add_action( 'woocommerce_after_shop_loop_item_title', 'avengerapp_excerpt_in_product_archives', 15 );
 /*-----------------------------------------------------------------------------------*/
 /* END */
 /*-----------------------------------------------------------------------------------*/
