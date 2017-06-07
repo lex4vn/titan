@@ -76,11 +76,9 @@ global $woo_options, $woocommerce;
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			<h3 class="nav-toggle"><a href="#navigation"><mark class="websymbols">&#178;</mark> <span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
-			<div class="seach-top-container">
-				<img class="seach-top-icon" src="<?php echo esc_url(get_template_directory_uri().'/images/search-top.jpg'); ?>"/>
-			</div>
-		</hgroup>
 
+		</hgroup>
+		</div>
 		<div class="head-nav">
         <?php woo_nav_before(); ?>
 			<nav id="navigation" class="col-full" role="navigation">
