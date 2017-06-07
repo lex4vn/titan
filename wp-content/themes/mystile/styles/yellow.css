@@ -1076,6 +1076,12 @@ ul.nav li a {
     border-top: none;
     padding-top: 0;
 }
+.products li.product h4,.products li.product h5, .products li.product .star-rating{
+  display:none;
+}
+.home .products li.product h4,.home .products li.product h5,.home .products li.product .star-rating{
+  display:inherit;
+}
 /*-------------------------------------------------------------------------------------------*/
 /* 4. WIDGETS */
 /*-------------------------------------------------------------------------------------------*/
